@@ -1,0 +1,59 @@
+1) var num int
+S:= 0
+for i := 0; i < K; itt {
+fmt.Scan (&num)
+s = s + num
+}
+fmt.Println(s)
+
+
+2) var n1, n2 int fmt.Scan (&n2)
+for i := 1; i < K; itt {
+n1 = n2
+fmt.Scan (&n2)
+fmt.Println(n2 - n1)
+}
+
+3)for i := 0; i < K; itt {
+fmt.Println("*")
+}
+
+4)var num int
+C := 0
+for i := 0; i < K; itt {
+fmt.Scan (&num)
+if num 8 3 == 0 {
+C++
+}
+}
+fmt.Println(c)
+
+5)var v, t int
+fmt. Scan(&t)
+P :=-1
+for i := 0; i < K; itt {
+fmt.Scan (&v)
+if v == t {
+P =i
+break
+}
+}
+fmt.Println(p)
+
+6)var n int
+fmt. Scan(&n)
+m :=n
+for i := 1; i < K; itt {
+ifn>m {
+m= n
+}
+fmt.Println(m)
+
+
+4) conteggio di valori con una data proprietà
+1) calcolo di una somma in una serie di numeri
+6) ricerca del min/max in una serie
+3) ripetizione di un'azione
+5) ricerca della posizione di un valore dato in una serie
+2) elaborazione su valori consecutivi di una serie
+
