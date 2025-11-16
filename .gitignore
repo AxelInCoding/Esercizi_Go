@@ -18,6 +18,9 @@ somma_quad_perf
 
 #181025
 cicli_annidati
+croceQuadrata
+croceQuadrata-if
+ipsilonQuadrata
 coppie_primi_gem
 distanza_1970
 num_primi_crescenti
@@ -39,6 +42,17 @@ sos_voc_u
 
 #30925
 hello
+
+#311025
+date_struct
+
+#41125
+conta_pattern_riga
+ultima_prima_riga
+ultima_prima_contrario_riga
+
+#71125
+poker
 
 #Laboratorio
 #091025
@@ -86,4 +100,53 @@ tasse
 2b-for-unario
 random
 
+#11125
+crescente
+disegna_slash
+disegna_v
+annidamento
+concatenazione
+fusione
+es0
+pos_alfabeto
+fibonacci
+lunghezza_tot
+max_char
+max_num_cifre_pari
+max_somma_cifre
+minu_maiu
+num_max
+num_maxP
+stringaByte
+stringaRune
+trova
+cesare
+maxGradino
+num_sequenze
+ultima_pioggia
 
+#61125
+primo_multiplo
+prime_vocali
+min_lessicografica
+ascending
+usaStandard
+funzioni
+operazioni
+giorni_mese
+briscola
+stampaRiquadro
+quanteDoppie
+
+#131125
+array
+carte
+conta_cifre
+countdown
+dado_bis
+estraiData
+scambio_valori
+test_puntatori
+black_jack
+clessidra
+punto

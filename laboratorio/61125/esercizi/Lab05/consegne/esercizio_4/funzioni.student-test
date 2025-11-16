@@ -1,0 +1,169 @@
+=== RUN   TestPalindromeSingleChar
+--- PASS: TestPalindromeSingleChar (0.00s)
+=== RUN   TestPalindromeSameChar
+--- PASS: TestPalindromeSameChar (0.00s)
+=== RUN   TestNonPalindromo
+--- PASS: TestNonPalindromo (0.00s)
+=== RUN   TestHasUpperSingle
+--- PASS: TestHasUpperSingle (0.00s)
+=== RUN   TestHasUpperNormal
+--- PASS: TestHasUpperNormal (0.00s)
+=== RUN   TestCountNormal
+--- PASS: TestCountNormal (0.00s)
+=== RUN   TestCountEmpty
+--- PASS: TestCountEmpty (0.00s)
+=== RUN   TestCountOneOfEach
+--- PASS: TestCountOneOfEach (0.00s)
+=== RUN   TestFirstUpper
+--- PASS: TestFirstUpper (0.00s)
+=== RUN   TestFirstUpperNo
+--- PASS: TestFirstUpperNo (0.00s)
+=== RUN   TestLastUpper
+--- PASS: TestLastUpper (0.00s)
+=== RUN   TestMainUnaStringa
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./funzioni ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[]
+
+/// StdInput:
+unastringa
+
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+Inserisci una stringa: (1) La stringa non ha maiuscole.	   |	non palindroma
+(2) Prima maiuscola in posizione:  -1			   |	non ha maiuscole
+(2) Ultima maiuscola in posizione:  -1			   |	0 10 0
+(3) Cifre:  0						   <	
+(3) lettere:  10					   <	
+(3) Altri caratteri:  0					   <	
+(4) la stringa NON è Palindroma.			   <	
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+>>> FAIL! differisce da output atteso
+
+--- FAIL: TestMainUnaStringa (0.10s)
+=== RUN   TestMainPalindroma
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./funzioni ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[]
+
+/// StdInput:
+abba
+
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+Inserisci una stringa: (1) La stringa non ha maiuscole.	   |	palindroma
+(2) Prima maiuscola in posizione:  -1			   |	non ha maiuscole
+(2) Ultima maiuscola in posizione:  -1			   |	0 4 0
+(3) Cifre:  0						   <	
+(3) lettere:  4						   <	
+(3) Altri caratteri:  0					   <	
+(4) La stirnga è Palindroma.				   <	
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+>>> FAIL! differisce da output atteso
+
+--- FAIL: TestMainPalindroma (0.01s)
+=== RUN   TestMainPalindromaDogma
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./funzioni ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[]
+
+/// StdInput:
+DOGMAIAMGOD
+
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+Inserisci una stringa: (1) La stringa contiene almeno un   |	palindroma
+(2) Prima maiuscola in posizione:  0			   |	ha maiuscole
+(2) Ultima maiuscola in posizione:  10			   |	0 11 0
+(3) Cifre:  0						   <	
+(3) lettere:  11					   <	
+(3) Altri caratteri:  0					   <	
+(4) La stirnga è Palindroma.				   <	
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+>>> FAIL! differisce da output atteso
+
+--- FAIL: TestMainPalindromaDogma (0.01s)
+=== RUN   TestMainPalindromaNumeriLettere
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+[ Questo test confronta l'output con l'output atteso ]
+[ Presuppone che l'eseguibile da testare ( ./funzioni ) sia già stato compilato! ]
+
+
+/// Argomenti a linea di comando:
+	[]
+
+/// StdInput:
+321DOGMAIAMGOD123
+
+/// eseguo diff...
+------------------------------------------------------------------------------------------------------------------------
+[ studente ]                                                                                                  [ atteso ]
+------------------------------------------------------ BEGIN DIFF ------------------------------------------------------
+Inserisci una stringa: (1) La stringa contiene almeno un   |	palindroma
+(2) Prima maiuscola in posizione:  3			   |	ha maiuscole
+(2) Ultima maiuscola in posizione:  13			   |	6 11 0
+(3) Cifre:  6						   <	
+(3) lettere:  11					   <	
+(3) Altri caratteri:  0					   <	
+(4) La stirnga è Palindroma.				   <	
+------------------------------------------------------  END DIFF  ------------------------------------------------------
+>>> FAIL! differisce da output atteso
+
+--- FAIL: TestMainPalindromaNumeriLettere (0.01s)
+=== RUN   TestCompila
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+Verifico compilazione... *** c'è qualche problema sul nome della directory o del file .go (non corrispondenza con le specifiche?) ***
+stat esercizio_4: no such file or directory
+--- FAIL: TestCompila (0.00s)
+=== RUN   TestLinux
+
+
+
+                            ___   ---   ===   ^^^   ***   TEST   ***   ^^^   ===   ---   ___
+
+Controllo sistema operativo...darwin
+*************************************************
+* ATTENZIONE! sistema operativo NON supportato! *
+*************************************************
+--- PASS: TestLinux (0.00s)
+FAIL
+exit status 1
+FAIL	funzioni	0.394s
