@@ -1,0 +1,14 @@
+Operazione (push/pop/top/empty/quit)? 
+valore?
+[4]
+Operazione (push/pop/top/empty/quit)?
+valore?
+[5 4]
+Operazione (push/pop/top/empty/quit)?
+pop
+testa 5
+[4]
+Operazione (push/pop/top/empty/quit)?
+testa 4
+[4]
+Operazione (push/pop/top/empty/quit)?

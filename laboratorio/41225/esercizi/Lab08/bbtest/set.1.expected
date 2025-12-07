@@ -1,0 +1,7 @@
+set A: map[blu:{} rosso:{}]
+
+set A: [blu rosso]
+set B: [blu verde]
+unione: [blu rosso verde]
+intersezione: [blu]
+differenza: [rosso]
